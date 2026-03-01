@@ -2,7 +2,7 @@ import Image from "next/image";
 import Button from "../general/Button";
 import { motion } from "framer-motion";
 import { AiOutlineArrowDown } from "react-icons/ai";
-import avatarPic from "@/public/narei_avatar.svg";
+import avatarPic from "@/public/profileImage.jpeg";
 
 export default function MainSection() {
   return (
@@ -37,11 +37,13 @@ export default function MainSection() {
         animate={{ opacity: 1 }}
         className="hidden lg:flex w-full h-full justify-center items-center"
       >
-        <Image
-          src={avatarPic}
-          alt={"avatar"}
-          className="w-3/4 aspect-square max-w-[600px]"
-        />
+        <div className="w-3/4 max-w-[600px] aspect-square relative border-black">
+          <Image
+            src={avatarPic}
+            alt="avatar"
+            className="w-full h-full object-cover rounded-full border-b-8 border-r-8 border-purple-500/40"
+          />
+        </div>
       </motion.div>
 
       {/* Jumping arrow */}
