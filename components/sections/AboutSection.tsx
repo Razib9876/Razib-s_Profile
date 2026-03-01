@@ -46,11 +46,13 @@ export default function AboutSection() {
 
       <div className="flex justify-between flex-col md:flex-row gap-5 w-52 md:w-full">
         <Button link="#projects_section" text={"check my work"} white />
-        <Button
-          icon={<BsDownload className="h-4 w-4" />}
-          text={"download cv"}
-          white
-        />
+        <a href="/Mohammad_Razib_FlowCV_Resume_2026-03-01.pdf" download>
+          <Button
+            icon={<BsDownload className="h-4 w-4" />}
+            text={"download cv"}
+            white
+          />
+        </a>
       </div>
     </div>
   );
