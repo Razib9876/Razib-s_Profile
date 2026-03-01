@@ -18,7 +18,7 @@ export default function SocialIcons({ black }: { black?: boolean }) {
         initial={{ y: 10, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1, transition: { delay: 0.3 } }}
         whileHover={{ y: -5, transition: { delay: 0 } }}
-        href=""
+        href="www.linkedin.com/in/mohammad-razib-3972873b4"
         target="_blank"
         className={black ? "text-black" : "text-white"}
       >

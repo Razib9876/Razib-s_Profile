@@ -9,7 +9,7 @@ export default function Footer() {
         <a href="https://github.com/Razib9876" target="_blank">
           <BsGithub className="h-6 w-6" />
         </a>
-        <a href="" target="_blank">
+        <a href="www.linkedin.com/in/mohammad-razib-3972873b4" target="_blank">
           <BsLinkedin className="h-6 w-6" />
         </a>
         <a href="mohammadrazib987@gmail.com">
